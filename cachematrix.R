@@ -1,3 +1,11 @@
+## Put comments here that give an overall description of what your
+## functions do
+
+##There are two functions makeCacheMatrix,makeCacheMatrix
+##makeCacheMatrix consists of set,get,setinv, getinv
+##library(MASS) is used to calculate inverse for non squared as well as square matrices
+library(MASS)
+
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
   
